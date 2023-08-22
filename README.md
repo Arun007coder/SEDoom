@@ -1,8 +1,6 @@
-# doomgeneric
-The purpose of doomgeneric is to make porting Doom easier.
-Of course Doom is already portable but with doomgeneric it is possible with just a few functions.
+# SEDoom
 
-To try it you will need a WAD file (game data). If you don't own the game, shareware version is freely available (doom1.wad).
+A port of doom for SectorOS-RW4. Ported using doomgeneric
 
 # porting
 Create a file named doomgeneric_yourplatform.c and just implement these functions to suit your platform.
@@ -65,3 +63,6 @@ emscripten port is based on SDL port, so it supports sound and music! For music,
 
 ## SDL
 ![SDL](screenshots/sdl.png)
+
+## SectorOS-RW4
+![SEOS](screenshots/seos4.jpg)

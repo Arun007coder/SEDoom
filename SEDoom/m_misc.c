@@ -57,7 +57,9 @@ void M_MakeDirectory(char *path)
 #ifdef _WIN32
     mkdir(path);
 #else
+#ifndef __sectoros__
     mkdir(path, 0755);
+#endif
 #endif
 }
 
